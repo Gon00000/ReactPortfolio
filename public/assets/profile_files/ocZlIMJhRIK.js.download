@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("FxLegacySettingFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(t,n,r,o,a,i,l){"use strict";var e=r("getFalcoLogPolicy_DO_NOT_USE")("2514"),s=o("FalcoLoggerInternal").create("fx_legacy_setting",e),u=s;l.default=u}),98);
+__d("FxcalSettingsProductFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(t,n,r,o,a,i,l){"use strict";var e=r("getFalcoLogPolicy_DO_NOT_USE")("117"),s=o("FalcoLoggerInternal").create("fxcal_settings_product",e),u=s;l.default=u}),98);
+__d("PolarisSettingsQP.react",["CometPlaceholder.react","PolarisQPConstants","deferredLoadComponent","react","react-compiler-runtime","requireDeferredForDisplay"],(function(t,n,r,o,a,i,l){"use strict";var e,s=e||(e=o("react")),u=r("deferredLoadComponent")(r("requireDeferredForDisplay")("PolarisQPManager.react").__setRef("PolarisSettingsQP.react"));function c(){var e=o("react-compiler-runtime").c(1),t;return e[0]===Symbol.for("react.memo_cache_sentinel")?(t=s.jsx(r("CometPlaceholder.react"),{fallback:null,name:i.id,children:s.jsx(u,{slot:o("PolarisQPConstants").SLOTS.settings})}),e[0]=t):t=e[0],t}l.default=c}),98);
