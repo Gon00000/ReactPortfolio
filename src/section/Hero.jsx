@@ -24,7 +24,7 @@ const Hero = () => {
         >
           <ambientLight intensity={2} />
           <directionalLight position={[5, 5, 5]} intensity={3} />
-          <Environment files="/assets/sky.jpg" />
+          <Environment files={`${import.meta.env.BASE_URL}assets/sky.jpg`} />
           <Suspense fallback={null}>
             <Float>
               <Clove
